@@ -27,8 +27,8 @@ $.get('./data.tsv', (data) => {
 		var mentor = {
 			'name': col[0],
 			// 'year': '',
+			'fun': col[2],
 			'about': col[1],
-			'talk': col[2],
 			// 'fun': col[3]
 		};
 
