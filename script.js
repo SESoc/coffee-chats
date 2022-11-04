@@ -29,7 +29,7 @@ $.get('./data.tsv', (data) => {
 			// 'year': '',
 			'about': col[1],
 			'talk': col[2],
-			'fun': col[3]
+			// 'fun': col[3]
 		};
 
 		// 2) the html template used to display each mentor
@@ -41,7 +41,7 @@ $.get('./data.tsv', (data) => {
 				</h2>
 				<div class="about">${mentor.about}</div>
 				<div class="fun"><b>Fun fact: </b>${mentor.fun}</div>
-				<div class="talk"><b>Talk to me about: </b>${mentor.talk}</div>
+				<!-- <div class="talk"><b>Talk to me about: </b>${mentor.talk}</div> -->
 			</div>
 		`;
 
